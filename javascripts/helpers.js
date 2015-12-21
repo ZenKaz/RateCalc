@@ -21,7 +21,7 @@ function ratesParse(url, currencyCodeRequest, fixRate) {
   var different = (100 - percent);
   var result = "Курс НБРК на дату " + date + " составляет " + currencyRate + " тг. Потеря в з/п " + percent + " процентов.";
   return result;
-}​
+}
 
 function getItems(feed) {
   var doc = XmlService.parse(feed);
